@@ -61,7 +61,7 @@
         height: 100vh;
         text-align: center;
         span {
-          font-size: 3.2rem;
+          font-size: 2.8rem;
         }
       }
       .desactivado {
@@ -81,10 +81,10 @@
       const pLetras = $("pLetras");
 
       const letrasConfig = [
-        { palabras: ["Desde", "septiembre"], tiempo: 0 },
-        { palabras: ["se", "siente"], tiempo: 1900 },
-        { palabras: ["que", "viene"], tiempo: 4000 },
-        { palabras: ["Diciembre"], tiempo: 5000, esUltimo: true },
+        { palabras: ["Desde", "Octubre"], tiempo: 0 },
+        { palabras: ["se", "siente"], tiempo: 2300 },
+        { palabras: ["que", "viene"], tiempo: 4300 },
+        { palabras: ["Diciembre"], tiempo: 6000, esUltimo: true },
       ];
 
       btn.addEventListener("click", () => {
@@ -116,7 +116,7 @@
                 const span2 = document.createElement("span");
                 const saltoDeLinea = document.createElement("br");
 
-                span.innerHTML = "FELIZ CASI <br />🎄 NAVIDAD 🎄";
+                span.innerHTML = "FELIZ CASI<br />NAVIDAD BOBO 🫶";
                 gif.src = "https://raw.githubusercontent.com/Ragosorio/desde-septiembre-se-siente/main/santa.gif";
                 pLetras.appendChild(span);
                 pLetras.appendChild(saltoDeLinea);
@@ -151,7 +151,7 @@
     <div class="section2 desactivado" id="s2">
       <audio
         id="myAudio"
-        src="https://raw.githubusercontent.com/Ragosorio/desde-septiembre-se-siente/main/haudio.mpeg"
+        src="https://raw.githubusercontent.com/Ragosorio/desde-septiembre-se-siente/codigo-para-enviar/haudio2.mpeg"
         preload="auto"
         class="desactivado"
       ></audio>
